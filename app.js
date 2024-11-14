@@ -14,7 +14,7 @@ function setLevel() {
 
     
     randomNumber = Math.floor(Math.random() * maxNumber) + 1;
-    
+}
 
 function checkGuess() {
     var guess = document.getElementById('guessInput').value; 
